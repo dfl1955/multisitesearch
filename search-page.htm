@@ -1,0 +1,51 @@
+<HTML>
+ 
+<HEAD>
+<TITLE></TITLE>
+<style>
+    form.form-example   { display: table; }
+    div.form-example    { display: table-row; }
+    label, input        { display: table-cell; margin-bottom: 10px; }
+    label               { padding-right: 10px; }
+    label               { padding-right: 4px; }
+    .list-inline        { list-style: none; margin-left: 0; padding-left: 0;}
+    .list-inline > li   { display: inline-block; margin-left: 4px; vertical-align:text-top }
+
+</style>
+</HEAD>
+
+<BODY style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+    <div class="main" style="width:750px; margin:auto">
+    <center><h2>Search my blog space</h2></center>
+    <form>
+        <ul class="list-inline" style="margin: left 2px;">
+            <li><label for="tag">tag</label></li>
+            <li><input type="radio" id="tag" name="tagorkey" value="tag"></li>
+            <li><label for="keyword">keyword</label></li>
+            <li><input type="radio" id="keyword" name="tagorkey" value="keyword"></li>
+            <li>
+                <label style="margin-left:6px;margin-right:6px;border-left-style:solid;padding-left: 8px;" for="words">search argument</label></li>
+            <li><input type="text" id="search" name="tagorkey"></li>
+        </ul>
+    </form>
+
+    <table>
+        <tr>
+            <td style="width: 345px;"> Blog Tags: Brexit </td>
+            <td> Wiki Tags: Brexit</td>
+        </tr>
+    </table>
+
+    <iframe style="margin: 10px;" src="https://davelevy.info/tag/brexit/feed/" width="325" height="300"></iframe>
+    <iframe style="margin: 10px;" src="https://davelevy.info/wiki/tag/brexit/feed/" width="325" height="300"></iframe>
+    <br/><br/>
+    <div style="display: none;">
+        <iframe style="margin: 10px;" src="https://davelevy.info/?s=brexit" width="325" height="300"></iframe>
+        <iframe style="margin: 10px;" src="https://davelevy.info/wiki/?s=brexit" width="325" height="300"></iframe>
+    </div>
+</div>
+
+<hr/>
+</BODY>
+</HTML>
+
