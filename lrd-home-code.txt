@@ -1,0 +1,20 @@
+
+<div class="searchbox">
+
+<form action="http://www.google.com/search" method="get">
+    <input name="ie" type="hidden" value="UTF-8" /> 
+    <input name="oe" type="hidden" value="UTF-8" /> 
+    <input name="domains" type="hidden" value="http://www.lrd.org.uk/" /> 
+    <input name="sitesearch" type="hidden" value="http://www.lrd.org.uk/" />
+<table>
+    <tbody>
+    <tr><td>
+        <input maxlength="255" name="q" size="50" type="text" value="Search free content within LRD site" /> 
+        <input name="btnG" type="submit" value="Google Search" />
+    </td></tr>
+    /tbody>
+</table>
+</form>
+
+</div>
+&nbsp;
